@@ -1,0 +1,155 @@
+{
+ "channel": "feb20a676694b1163fed010da0848303",
+ "proxy": null,
+ "exit_ip": {
+  "ip": "160.79.106.139",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ },
+ "steps": [
+  {
+   "label": "live-detail v1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1/channels/feb20a676694b1163fed010da0848303/live-detail",
+   "status": 500,
+   "content_type": "application/json",
+   "len": 80,
+   "sha256": "8a23e015ea9d93f76a1247ebde856c22bb319b8fdbd413b9b1931e14d1679f14",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 9004,
+    "api_msg": "앱 업데이트 후에 정상 시청 가능합니다."
+   }
+  },
+  {
+   "label": "live-detail v2",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2/channels/feb20a676694b1163fed010da0848303/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1884,
+   "sha256": "662d1465b8650506e8083056857147cd3a683b3ee40f62e5ca991f48504eafe8",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail v2.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2.1/channels/feb20a676694b1163fed010da0848303/live-detail",
+   "status": 404,
+   "content_type": "application/json",
+   "len": 9,
+   "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": null,
+    "api_msg": null
+   }
+  },
+  {
+   "label": "live-detail v3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3/channels/feb20a676694b1163fed010da0848303/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1914,
+   "sha256": "9e28987a93f2260e1f5a6a2df8f89ce1ad2ad6154b0780b3cb614b88f081f440",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/feb20a676694b1163fed010da0848303/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1915,
+   "sha256": "adfbbdaebe03a8ae693211f4b24fc611ffbed18a5ea29790cad9a80a043bb31d",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail-meta v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/feb20a676694b1163fed010da0848303/live-detail-meta?dt=0",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1927,
+   "sha256": "5db8064bec7507a90e42432e728b079fd26e59298647142a260ada7ca3f2d046",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":200,\"message\":null,\"content\":{\"liveId\":21769833,\"liveTitle\":\"월희 처음부터\",\"status\":\"OPEN\",\"liveImageUrl\":null,\"defaultThumbnailImageUrl\":null,\"concurrentUserCount\":1634,\"cvExposure\":true,\"accumulateCount\":0,\"openDate\":\"2026-10-21 20:01:08\",\"closeDate\":null,\"adult\":true,\"krOnlyViewing\":false,\"clipActive\":true,\"tags\":[],\"chatChannelId\":null,\"categoryType\":\"GAME\",\"liveCategory\":\"TSUKI"
+  },
+  {
+   "label": "live-playback-json-meta v1.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1.1/channels/feb20a676694b1163fed010da0848303/live-playback-json-meta?tm=0",
+   "status": 403,
+   "content_type": "application/json",
+   "len": 71,
+   "sha256": "05f62b215a3f8c7624bdb51de1b344eec22983ce54d8a14d3265496fef46f6e9",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":9009,\"message\":\"미성년자는 시청이 불가능합니다.\"}"
+  }
+ ]
+}

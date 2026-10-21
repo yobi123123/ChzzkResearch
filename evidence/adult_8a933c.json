@@ -1,0 +1,155 @@
+{
+ "channel": "8a933cb3a86c52aadb2483aa4eed72aa",
+ "proxy": null,
+ "exit_ip": {
+  "ip": "160.79.106.135",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ },
+ "steps": [
+  {
+   "label": "live-detail v1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail",
+   "status": 500,
+   "content_type": "application/json",
+   "len": 80,
+   "sha256": "8a23e015ea9d93f76a1247ebde856c22bb319b8fdbd413b9b1931e14d1679f14",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 9004,
+    "api_msg": "앱 업데이트 후에 정상 시청 가능합니다."
+   }
+  },
+  {
+   "label": "live-detail v2",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1839,
+   "sha256": "e34e088901109f5d168199ad59b2d1b9303e50641f07088c536200d582e02b65",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail v2.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2.1/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail",
+   "status": 404,
+   "content_type": "application/json",
+   "len": 9,
+   "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": null,
+    "api_msg": null
+   }
+  },
+  {
+   "label": "live-detail v3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1869,
+   "sha256": "b3eae3aa0c608c78fb5d728296c6301f8892a9d729eee44f51aacf4303c6f7ed",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1870,
+   "sha256": "a3bcb4f3465423ee95ed7d1b7898b22f34a90fec89c94c48eb1e33861eccfefb",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": true,
+    "userAdultStatus": "NOT_LOGIN_USER",
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": false,
+    "playback": null
+   }
+  },
+  {
+   "label": "live-detail-meta v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-detail-meta?dt=0",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 1882,
+   "sha256": "7c433919fb7a1f9b2c7f6e574e130b9b0957905972b702da55f2a539f23a1b7e",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":200,\"message\":null,\"content\":{\"liveId\":21764767,\"liveTitle\":\"오랜만에 빵댕이를 흔들흔들\",\"status\":\"OPEN\",\"liveImageUrl\":null,\"defaultThumbnailImageUrl\":null,\"concurrentUserCount\":992,\"cvExposure\":true,\"accumulateCount\":0,\"openDate\":\"2026-10-21 16:24:20\",\"closeDate\":null,\"adult\":true,\"krOnlyViewing\":false,\"clipActive\":true,\"tags\":[\"버튜버\",\"라코코\"],\"chatChannelId\":null,\"c"
+  },
+  {
+   "label": "live-playback-json-meta v1.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1.1/channels/8a933cb3a86c52aadb2483aa4eed72aa/live-playback-json-meta?tm=0",
+   "status": 403,
+   "content_type": "application/json",
+   "len": 71,
+   "sha256": "05f62b215a3f8c7624bdb51de1b344eec22983ce54d8a14d3265496fef46f6e9",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":9009,\"message\":\"미성년자는 시청이 불가능합니다.\"}"
+  }
+ ]
+}

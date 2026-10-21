@@ -1,0 +1,98 @@
+[
+ {
+  "name": "index-uNhAs37B.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/index-uNhAs37B.js",
+  "size": 5526594,
+  "sha256": "79eff47113daa4662a626b6b05986d601e669d93ddcb249ee5ae9a25a6a4e2df"
+ },
+ {
+  "name": "rolldown-runtime-CJJwijRH.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/rolldown-runtime-CJJwijRH.js",
+  "size": 1273,
+  "sha256": "0c0bf430afd3b71beff576c47908b01139baba43f826f93f587baaccb6e3a378"
+ },
+ {
+  "name": "common-vendor-pcHQV1G2.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/common-vendor-pcHQV1G2.js",
+  "size": 625188,
+  "sha256": "2801491c851815a10c8f5afcbbbd448fbd861e6e3b690adcd3cb8f1cda1ccea0"
+ },
+ {
+  "name": "player-vendor-jlaALtVk.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/player-vendor-jlaALtVk.js",
+  "size": 6638372,
+  "sha256": "bc952e6f08baccfce501e0ff835a791821b89a34a7d9a77d22c114db9c2982f6"
+ },
+ {
+  "name": "vendor-CwePr91W.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/vendor-CwePr91W.js",
+  "size": 6463234,
+  "sha256": "567ff0e53e98aa564fb709da031e1f6e7778785611ed30be917718f1ff41329a"
+ },
+ {
+  "name": "date-vendor-DhkCJ9xZ.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/date-vendor-DhkCJ9xZ.js",
+  "size": 845136,
+  "sha256": "c6326ff4d567fb5425aa5890231224c5a882ec315b453676b50edc90eb076a81"
+ },
+ {
+  "name": "worldcup_event_loading-DDING3Tt.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/worldcup_event_loading-DDING3Tt.js",
+  "size": 32795,
+  "sha256": "fb1fcba9509ef2da87132891b0e43ff191bfa07c2f28f0ca853f553c736fbd2d"
+ },
+ {
+  "name": "worldcup_event_result_win-vBR6lPpU.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/worldcup_event_result_win-vBR6lPpU.js",
+  "size": 101146,
+  "sha256": "69ef610494c28203eab7dee8aee7a4313c878ce8fb6da12e92c4b8104377857c"
+ },
+ {
+  "name": "worldcup_event_result_lose-BFT13MGt.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/worldcup_event_result_lose-BFT13MGt.js",
+  "size": 86316,
+  "sha256": "287bbefe9abe4957afb8ee8842d92523be28c48f1f14c2713d216af1d00bb094"
+ },
+ {
+  "name": "clipEditor-C4hIb_wR.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/clipEditor-C4hIb_wR.js",
+  "size": 44177,
+  "sha256": "5d5366c32911721cc5f2743dcf994500030fd3bc234a408110363b3acb2786f5"
+ },
+ {
+  "name": "strings-en_us-CFTz6Ot7.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/strings-en_us-CFTz6Ot7.js",
+  "size": 149748,
+  "sha256": "868ef7bf46c46dc997afc515ed9ae017a28e5d2454eb5d2eb600003633e88df6"
+ },
+ {
+  "name": "strings-ko_kr-LkHMJrFd.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/strings-ko_kr-LkHMJrFd.js",
+  "size": 335298,
+  "sha256": "7174eaa68be4b71402a5cf5fda75a6cd48d8c9ab9695d68f45bdc4b63a64379d"
+ },
+ {
+  "name": "strings-vi_vn-DLL2AQnC.js",
+  "url": "https://ssl.pstatic.net/static/nng/glive/resource/p/static/js/strings-vi_vn-DLL2AQnC.js",
+  "size": 149689,
+  "sha256": "18d97819144857c85c09b0a6e8720fa9384e3da191be843f491f8a7193e3ce89"
+ },
+ {
+  "name": "desktop-media-viewer.min.js",
+  "url": "https://ssl.pstatic.net/static/nng/resource/p/static/js/desktop-media-viewer.min.js",
+  "size": 397330,
+  "sha256": "4edd36b3a16d9a3e900f2c3e5e6dcfd6377985f1f8d3e7a27b065f9af13ffc98"
+ },
+ {
+  "name": "refresh-detector-obfuscated.js",
+  "url": "https://ssl.pstatic.net/static/nng/sdk/refresh-detector-obfuscated.js",
+  "size": 2717,
+  "sha256": "9a894d5316aee53a153ec700cfda258dc3bceeadb13651a17ead664826519ea7"
+ },
+ {
+  "name": "media-capable-log.js",
+  "url": "https://ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js",
+  "size": 4162,
+  "sha256": "e9b9d7c98f625a493931e9abaf557ad53a25cc1f27be1c82a36b76615936cef1"
+ }
+]

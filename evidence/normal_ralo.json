@@ -1,0 +1,282 @@
+{
+ "channel": "3497a9a7221cc3ee5d3f95991d9f95e9",
+ "proxy": null,
+ "exit_ip": {
+  "ip": "160.79.106.137",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ },
+ "steps": [
+  {
+   "label": "live-detail v1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail",
+   "status": 500,
+   "content_type": "application/json",
+   "len": 80,
+   "sha256": "8a23e015ea9d93f76a1247ebde856c22bb319b8fdbd413b9b1931e14d1679f14",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 9004,
+    "api_msg": "앱 업데이트 후에 정상 시청 가능합니다."
+   }
+  },
+  {
+   "label": "live-detail v2",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 8207,
+   "sha256": "9b501a0925e40308edd804c4da17a66d656bdd482ef573e335fa8a5e5f55a4a3",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": false,
+    "userAdultStatus": null,
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": true,
+    "playback": "{\"meta\":{\"videoId\":\"8E3176454C1CDAF173443B12173018FB4D44\",\"streamSeq\":27588676,\"liveId\":\"21771179\",\"paidLive\":false,\"cdnInfo\":{\"cdnType\":\"GCDN\"},\"cmcdEnabled\":false,\"playbackAuthType\":\"NONE\"},\"serviceMeta\":{\"contentType\":\"VIDEO\"},\"live\":{\"start\":\"2026-10-21T20:40:26\",\"open\":\"2026-10-21T20:40:26\",\"timeMachine\":false,\"status\":\"STARTED\"},\"api\":[{\"name\":\"p2p-config\",\"path\":\"https://apis.naver.com/livecloud/livecloud/xray/p2p/v1/config/chzzk\"},{\"name\":\"qoeConfig\",\"path\":\"https://apis.naver.com/policy/policy/policy\"}],\"media\":[{\"mediaId\":\"HLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]},{\"mediaId\":\"LLHLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"latency\":\"lowLatency\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]}],\"thumbnail\":{\"snapshotThumbnailTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27588676/live/21771179/publish/67864095/thumbnail/image_{type}.jpg\",\"spriteSeekingThumbnail\":{\"spriteFormat\":{\"rowCount\":3,\"columnCount\":4,\"intervalType\":\"millisecond\",\"interval\":20000,\"thumbnailWidth\":160,\"thumbnailHeight\":90},\"urlTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/kr/live-image/live/record/60725410/seeking/thumbnail/image_4x3x20000_21771179_{spriteIndex}.jpg\",\"processingSeconds\":120},\"types\":[\"720\",\"480\",\"360\",\"270\",\"144\"]},\"multiview\":[]}"
+   }
+  },
+  {
+   "label": "live-detail v2.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v2.1/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail",
+   "status": 404,
+   "content_type": "application/json",
+   "len": 9,
+   "sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": null,
+    "api_msg": null
+   }
+  },
+  {
+   "label": "live-detail v3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 8253,
+   "sha256": "78ee54dd2bcac4130d88159151f894dfade53063d9fee234759489493fd0f535",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": false,
+    "userAdultStatus": null,
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": true,
+    "playback": "{\"meta\":{\"videoId\":\"8E3176454C1CDAF173443B12173018FB4D44\",\"streamSeq\":27588676,\"liveId\":\"21771179\",\"paidLive\":false,\"cdnInfo\":{\"cdnType\":\"GCDN\"},\"cmcdEnabled\":false,\"playbackAuthType\":\"NONE\"},\"serviceMeta\":{\"contentType\":\"VIDEO\"},\"live\":{\"start\":\"2026-10-21T20:40:26\",\"open\":\"2026-10-21T20:40:26\",\"timeMachine\":false,\"status\":\"STARTED\"},\"api\":[{\"name\":\"p2p-config\",\"path\":\"https://apis.naver.com/livecloud/livecloud/xray/p2p/v1/config/chzzk\"},{\"name\":\"qoeConfig\",\"path\":\"https://apis.naver.com/policy/policy/policy\"}],\"media\":[{\"mediaId\":\"HLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]},{\"mediaId\":\"LLHLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"latency\":\"lowLatency\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]}],\"thumbnail\":{\"snapshotThumbnailTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27588676/live/21771179/publish/67864095/thumbnail/image_{type}.jpg\",\"spriteSeekingThumbnail\":{\"spriteFormat\":{\"rowCount\":3,\"columnCount\":4,\"intervalType\":\"millisecond\",\"interval\":20000,\"thumbnailWidth\":160,\"thumbnailHeight\":90},\"urlTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/kr/live-image/live/record/60725410/seeking/thumbnail/image_4x3x20000_21771179_{spriteIndex}.jpg\",\"processingSeconds\":120},\"types\":[\"720\",\"480\",\"360\",\"270\",\"144\"]},\"multiview\":[]}"
+   }
+  },
+  {
+   "label": "live-detail v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 8253,
+   "sha256": "09d841fc72a6f44da6e0b7b3648e426a973924068cdbdf858499e35ed7d9811e",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "parsed": {
+    "api_code": 200,
+    "api_msg": null,
+    "adult": false,
+    "userAdultStatus": null,
+    "status": "OPEN",
+    "krOnlyViewing": false,
+    "has_playback": true,
+    "playback": "{\"meta\":{\"videoId\":\"8E3176454C1CDAF173443B12173018FB4D44\",\"streamSeq\":27588676,\"liveId\":\"21771179\",\"paidLive\":false,\"cdnInfo\":{\"cdnType\":\"GCDN\"},\"cmcdEnabled\":false,\"playbackAuthType\":\"NONE\"},\"serviceMeta\":{\"contentType\":\"VIDEO\"},\"live\":{\"start\":\"2026-10-21T20:40:26\",\"open\":\"2026-10-21T20:40:26\",\"timeMachine\":false,\"status\":\"STARTED\"},\"api\":[{\"name\":\"p2p-config\",\"path\":\"https://apis.naver.com/livecloud/livecloud/xray/p2p/v1/config/chzzk\"},{\"name\":\"qoeConfig\",\"path\":\"https://apis.naver.com/policy/policy/policy\"}],\"media\":[{\"mediaId\":\"HLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]},{\"mediaId\":\"LLHLS\",\"protocol\":\"HLS\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"latency\":\"lowLatency\",\"encodingTrack\":[{\"encodingTrackId\":\"720p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":3000000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1280,\"videoHeight\":720,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"480p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":1500000,\"audioBitRate\":192000,\"videoFrameRate\":\"30.0\",\"videoWidth\":852,\"videoHeight\":480,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"360p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":600000,\"audioBitRate\":96000,\"videoFrameRate\":\"30.0\",\"videoWidth\":640,\"videoHeight\":360,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"144p\",\"videoProfile\":\"main\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":128000,\"audioBitRate\":64000,\"videoFrameRate\":\"30.0\",\"videoWidth\":256,\"videoHeight\":144,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"1080p\",\"videoProfile\":\"high\",\"audioProfile\":\"LC\",\"videoCodec\":\"H264\",\"videoBitRate\":8192000,\"audioBitRate\":192000,\"videoFrameRate\":\"60.0\",\"videoWidth\":1920,\"videoHeight\":1080,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":true,\"videoDynamicRange\":\"SDR\"},{\"encodingTrackId\":\"audioOnly\",\"path\":\"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_audioOnly_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…\",\"audioCodec\":\"AAC\",\"audioBitRate\":96000,\"audioOnly\":true,\"audioSamplingRate\":48000,\"audioChannel\":2,\"avoidReencoding\":false}]}],\"thumbnail\":{\"snapshotThumbnailTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27588676/live/21771179/publish/67864095/thumbnail/image_{type}.jpg\",\"spriteSeekingThumbnail\":{\"spriteFormat\":{\"rowCount\":3,\"columnCount\":4,\"intervalType\":\"millisecond\",\"interval\":20000,\"thumbnailWidth\":160,\"thumbnailHeight\":90},\"urlTemplate\":\"https://livecloud-thumb.akamaized.net/chzzk/kr/live-image/live/record/60725410/seeking/thumbnail/image_4x3x20000_21771179_{spriteIndex}.jpg\",\"processingSeconds\":120},\"types\":[\"720\",\"480\",\"360\",\"270\",\"144\"]},\"multiview\":[]}"
+   }
+  },
+  {
+   "label": "live-detail-meta v3.3",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v3.3/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-detail-meta?dt=0",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 2043,
+   "sha256": "d04a34c90f0774c8f8e111aa46c2d5fa6b2e65eab4791eb18fa54cc6b13dacd1",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":200,\"message\":null,\"content\":{\"liveId\":21771179,\"liveTitle\":\"화가난사람\",\"status\":\"OPEN\",\"liveImageUrl\":\"https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/27588676/live/21771179/publish/67864095/thumbnail/image_{type}.jpg\",\"defaultThumbnailImageUrl\":null,\"concurrentUserCount\":13626,\"cvExposure\":true,\"accumulateCount\":0,\"openDate\":\"2026-10-21 20:40:26\",\"closeDate\":null,\"a"
+  },
+  {
+   "label": "live-playback-json-meta v1.1",
+   "method": "GET",
+   "url": "https://api.chzzk.naver.com/service/v1.1/channels/3497a9a7221cc3ee5d3f95991d9f95e9/live-playback-json-meta?tm=0",
+   "status": 200,
+   "content_type": "application/json",
+   "len": 6301,
+   "sha256": "b64b02dcf9b159cae09e2a679329fa08845f56ba70aa417f03eabf34c5fe9411",
+   "resp_headers": {
+    "content-type": "application/json",
+    "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+    "server": "nfront"
+   },
+   "body_head": "{\"code\":200,\"message\":null,\"content\":{\"playbackJson\":\"{\\\"meta\\\":{\\\"videoId\\\":\\\"8E3176454C1CDAF173443B12173018FB4D44\\\",\\\"streamSeq\\\":27588676,\\\"liveId\\\":\\\"21771179\\\",\\\"paidLive\\\":false,\\\"cdnInfo\\\":{\\\"cdnType\\\":\\\"GCDN\\\"},\\\"cmcdEnabled\\\":false,\\\"playbackAuthType\\\":\\\"NONE\\\"},\\\"serviceMeta\\\":{\\\"contentType\\\":\\\"VIDEO\\\"},\\\"live\\\":{\\\"start\\\":\\\"2026-10-21T20:40:26\\\",\\\"open\\\":\\\"2026-10-21T20:40:26\\\",\\\"timeM"
+  },
+  {
+   "label": "master m3u8",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_playlist.m3u8?hdnts=st=17925…/suhbp52fbgquxoujmznl7yirybeewbah46it/*~hmac=fbbfdb2e…",
+   "status": 200,
+   "content_type": "application/x-mpegURL",
+   "len": 1621,
+   "sha256": "82dc5e7e507fdbc0464759159eccdb64fef39de5a1ecfc119c46906bd8bec0cc",
+   "resp_headers": {
+    "content-type": "application/x-mpegURL",
+    "cache-control": "max-age=1",
+    "server": "XPLATFORM"
+   },
+   "body_head": "#EXTM3U\n#EXT-X-VERSION:7\n#EXT-X-INDEPENDENT-SEGMENTS\n\n#EXT-X-STREAM-INF:BANDWIDTH=3192000,CODECS=\"avc1.640028,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=60.00\nhdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/720p/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_chunklist.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1692000,CODECS=\"avc1.4D001F,mp4a.40.2\",RESOLUTION=852x480,FRAME-RATE=30.00\nhdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/480p/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_chunklist.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=696000,CODECS=\"avc1.4D001E,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=30.00\nhdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/360p/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_chunklist.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=192000,CODECS=\"avc1.4D000C,mp4a.40.2\",RESOLUTION=256x144,FRAME-RATE=30.00\nhdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…",
+   "variants": [
+    {
+     "resolution": "1280x720",
+     "bandwidth": 3192000
+    },
+    {
+     "resolution": "852x480",
+     "bandwidth": 1692000
+    },
+    {
+     "resolution": "640x360",
+     "bandwidth": 696000
+    },
+    {
+     "resolution": "256x144",
+     "bandwidth": 192000
+    },
+    {
+     "resolution": "1920x1080",
+     "bandwidth": 8384000
+    }
+   ]
+  },
+  {
+   "label": "media m3u8",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/144p/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_chunklist.m3u8",
+   "status": 200,
+   "content_type": "application/x-mpegURL",
+   "len": 2587,
+   "sha256": "e73865ff9000baccce522473f54ae691864d7d68e8e0cd71e21175d3e293db00",
+   "resp_headers": {
+    "content-type": "application/x-mpegURL",
+    "cache-control": "max-age=1",
+    "server": "XPLATFORM"
+   },
+   "body_head": "#EXTM3U\n#EXT-X-VERSION:7\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-TARGETDURATION:10\n#EXT-X-MEDIA-SEQUENCE:6147\n#EXT-X-DISCONTINUITY-SEQUENCE:0\n#EXT-X-DATERANGE:ID=\"nmss-daterange\",START-DATE=\"2026-10-21T11:40:27.116Z\"\n\n#EXT-X-MAP:URI=\"144p_0_0_0.m4s?type=hls&filetype=.m4s\"\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:40.267Z\n#EXTINF:2.000000,\n144p_3031964466_1792595140267_12313_0_6147.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:42.267Z\n#EXTINF:2.000000,\n144p_1824054878_1792595142267_12315_0_6148.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:44.267Z\n#EXTINF:2.000000,\n144p_4056513557_1792595144267_12317_0_6149.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:46.267Z\n#EXTINF:2.000000,\n144p_2593099217_1792595146267_12319_0_6150.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:48.267Z\n#EXTINF:2.000000,\n144p_3657233031_1792595148267_12321_0_6151.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:50.267Z\n#EXTINF:2.000000,\n144p_129378502_1792595150267_12323_0_6152.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:52.267Z\n#EXTINF:2.000000,\n144p_2400659078_1792595152267_12325_0_6153.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:54.267Z\n#EXTINF:2.000000,\n144p_3154671470_1792595154267_12327_0_6154.m4v\n#EXT-X-PROGRA"
+  },
+  {
+   "label": "segment",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/144p/144p_3031964466_1792595140267_12313_0_6147.m4v",
+   "status": 200,
+   "content_type": "video/mp4",
+   "len": 50763,
+   "sha256": "dfd93b1bd087174a1f0f1bc2097933da6767def49ccb9b1b12fe875c623b5d26",
+   "resp_headers": {
+    "content-type": "video/mp4",
+    "cache-control": "max-age=28774",
+    "server": "XPLATFORM"
+   },
+   "body_head": ""
+  },
+  {
+   "label": "segment",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/144p/144p_1824054878_1792595142267_12315_0_6148.m4v",
+   "status": 200,
+   "content_type": "video/mp4",
+   "len": 47502,
+   "sha256": "23260258bce0354f663aea9f9bc1255632a9bbaa5b0f83b6a62bc8a7eedaad0e",
+   "resp_headers": {
+    "content-type": "video/mp4",
+    "cache-control": "max-age=28774",
+    "server": "XPLATFORM"
+   },
+   "body_head": ""
+  },
+  {
+   "label": "media m3u8",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/1080p/c6gv77agvqcqfqqytuqkha2beewbah4279_hls_chunklist.m3u8",
+   "status": 200,
+   "content_type": "application/x-mpegURL",
+   "len": 2601,
+   "sha256": "f56b6b7cca051e88a9279522d8f36883b310d2953c19782392ca44a1cc422674",
+   "resp_headers": {
+    "content-type": "application/x-mpegURL",
+    "cache-control": "max-age=1",
+    "server": "XPLATFORM"
+   },
+   "body_head": "#EXTM3U\n#EXT-X-VERSION:7\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-TARGETDURATION:10\n#EXT-X-MEDIA-SEQUENCE:6147\n#EXT-X-DISCONTINUITY-SEQUENCE:0\n#EXT-X-DATERANGE:ID=\"nmss-daterange\",START-DATE=\"2026-10-21T11:40:27.116Z\"\n\n#EXT-X-MAP:URI=\"1080p_0_0_0.m4s?type=hls&filetype=.m4s\"\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:44.266Z\n#EXTINF:2.000000,\n1080p_3960025322_1792595144266_12317_0_6147.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:46.266Z\n#EXTINF:2.000000,\n1080p_2383460437_1792595146266_12319_0_6148.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:48.266Z\n#EXTINF:2.000000,\n1080p_2939117027_1792595148266_12321_0_6149.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:50.266Z\n#EXTINF:2.000000,\n1080p_2337695275_1792595150266_12323_0_6150.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:52.266Z\n#EXTINF:2.000000,\n1080p_2339267516_1792595152266_12325_0_6151.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:54.266Z\n#EXTINF:2.000000,\n1080p_3725754804_1792595154266_12327_0_6152.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:56.266Z\n#EXTINF:2.000000,\n1080p_740906431_1792595156266_12329_0_6153.m4v\n#EXT-X-PROGRAM-DATE-TIME:2026-10-21T15:05:58.266Z\n#EXTINF:2.000000,\n1080p_2762362342_1792595158266_12331_0_6154.m4v\n#EXT"
+  },
+  {
+   "label": "segment",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/1080p/1080p_3960025322_1792595144266_12317_0_6147.m4v",
+   "status": 200,
+   "content_type": "video/mp4",
+   "len": 2027659,
+   "sha256": "659cbae360dbfd84d8350e0cd4d81fa7998eb8737eb8366a4d2eb4df4d18463c",
+   "resp_headers": {
+    "content-type": "video/mp4",
+    "cache-control": "max-age=3600",
+    "server": "XPLATFORM"
+   },
+   "body_head": ""
+  },
+  {
+   "label": "segment",
+   "method": "GET",
+   "url": "https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0006/suhbp52fbgquxoujmznl7yirybeewbah46it/hdntl=exp=1792656379~acl=*%2fsuhbp52fbgquxoujmznl7yirybeewbah46it%2f*~data=hdnt…~hmac=2750a847…/1080p/1080p_2383460437_1792595146266_12319_0_6148.m4v",
+   "status": 200,
+   "content_type": "video/mp4",
+   "len": 2036330,
+   "sha256": "0e055b1e2a35f052f90ac44d4eb6054f44b550092b62bdf25a12446410739bb5",
+   "resp_headers": {
+    "content-type": "video/mp4",
+    "cache-control": "max-age=28772",
+    "server": "XPLATFORM"
+   },
+   "body_head": ""
+  }
+ ]
+}
