@@ -1,0 +1,109 @@
+{
+ "bid": "khm11903",
+ "bno": "298011215",
+ "proxy": null,
+ "steps": [
+  {
+   "label": "player_live_api type=live",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 7463,
+   "sha256": "d8a22b0aeedb724ee1668ea60e851bd482928e53ac4ccffb1a0a7fc05e0182ed",
+   "RESULT": 1,
+   "flags": {
+    "BPWD": "N",
+    "GRADE": "0",
+    "P_MIN_TIER": "0",
+    "ISSP": 0,
+    "geo_cc": "US"
+   }
+  },
+  {
+   "label": "player_live_api type=aid",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 313,
+   "sha256": "9de06f539dabf945bebacb89f2afbfdc744a0c56e6f11c4bc1bd679ed91438c6",
+   "RESULT": 1,
+   "aid_present": true
+  },
+  {
+   "label": "broad_stream_assign master",
+   "url": "https://livestream-manager.sooplive.com/broad_stream_assign.html?return_type=gcp_cdn&use_cors=false&cors_origin_url=play.sooplive.co.kr&broad_key=298011215-common-master-hls",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 153,
+   "sha256": "bc9718027fd4d2d1181afc7b30fd8c3dffddb0226b8f4e2453dd7d253b3f9261",
+   "view_url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/auth_master_playlist.m3u8"
+  },
+  {
+   "label": "master m3u8",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/auth_master_playlist.m3u8?aid=.A32.pxq…",
+   "status": 200,
+   "content_type": "application/vnd.apple.mpegURL",
+   "len": 1166,
+   "sha256": "6182f7f15cc23978c778bfe316d997e1bf371c355769531e1e5dd685ba183a1b"
+  },
+  {
+   "label": "media m3u8 저화질",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/auth_playlist.m3u8?aid=.A32.pxq…",
+   "status": 200,
+   "content_type": "application/vnd.apple.mpegURL",
+   "len": 958,
+   "sha256": "9aa727abd89aa044244e339e6b0ca5992fdee1ee364162c3be3c8e1ff48f2d40"
+  },
+  {
+   "label": "segment",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/640x360/298011215-common-sd-hls_8216_0000004A0044006346C73B7354535860.TS",
+   "status": 200,
+   "content_type": "video/MP2T",
+   "len": 182172,
+   "sha256": "2a02d0fef052fa2bba5f3d0524190f446e9198e773493465158583ef90f09fe6"
+  },
+  {
+   "label": "segment",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/640x360/298011215-common-sd-hls_8217_000000C300BB0009A25376EC9CFF897D.TS",
+   "status": 200,
+   "content_type": "video/MP2T",
+   "len": 186496,
+   "sha256": "d7e6eb56feb0c941e71a1f626eff918532911ec81804c0641b6852948b3f877a"
+  },
+  {
+   "label": "media m3u8 고화질",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/auth_playlist.m3u8?aid=.A32.pxq…",
+   "status": 200,
+   "content_type": "application/vnd.apple.mpegURL",
+   "len": 1006,
+   "sha256": "829686769aabab9e075afca2cceabaff09eea54f67965b488abfedd7032759a9"
+  },
+  {
+   "label": "segment",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/1920x1080/298011215-common-original-hls_8219_000000C6006B00BD62F827A271AA7F35.TS",
+   "status": 200,
+   "content_type": "video/MP2T",
+   "len": 2110488,
+   "sha256": "c7633fc48f5c6fb04599655763c966920d738e3b08ef5f208b94fd45becab109"
+  },
+  {
+   "label": "segment",
+   "url": "https://live-global-cdn-v02.sooplive.co.kr/live-stmc-40/1920x1080/298011215-common-original-hls_8220_000000EA00670028DB28A175100DA179.TS",
+   "status": 200,
+   "content_type": "video/MP2T",
+   "len": 4265908,
+   "sha256": "db817b3b33c2a2e6676e6dccf0fc46f472c1cdb55a804e9489a40ef7258ea39a"
+  }
+ ],
+ "exit_ip": {
+  "ip": "160.79.106.138",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ }
+}

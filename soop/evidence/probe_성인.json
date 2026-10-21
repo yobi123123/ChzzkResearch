@@ -1,0 +1,31 @@
+{
+ "bid": "eunyoung1238",
+ "bno": "298014537",
+ "proxy": null,
+ "steps": [
+  {
+   "label": "player_live_api type=live",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 267,
+   "sha256": "b87d4e6cdbd7ebd8f19b2a3e25c388bb7995bd89f09ad31657e5c1ac61514ce7",
+   "RESULT": -6,
+   "flags": {
+    "ISSP": 0,
+    "geo_cc": "US"
+   }
+  }
+ ],
+ "exit_ip": {
+  "ip": "160.79.106.138",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ }
+}

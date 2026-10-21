@@ -1,0 +1,30 @@
+{
+ "bid": "beadyo97",
+ "bno": "298001997",
+ "proxy": null,
+ "steps": [
+  {
+   "label": "player_live_api type=live",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 88,
+   "sha256": "5aa4d3930a9c3d073f9632dcdbf73e0d7cf7f6948cdd716e52684f2eae9abe76",
+   "RESULT": -14,
+   "flags": {
+    "P_MIN_TIER": "2"
+   }
+  }
+ ],
+ "exit_ip": {
+  "ip": "160.79.106.132",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "bid": "iamquaddurup",
+ "bno": "298009481",
+ "proxy": null,
+ "steps": [
+  {
+   "label": "player_live_api type=live",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 4786,
+   "sha256": "827513fb5fd7228b480239c4698e7d14c3ccc984981f738ba327fa6dab97a452",
+   "RESULT": 1,
+   "flags": {
+    "BPWD": "Y",
+    "GRADE": "0",
+    "P_MIN_TIER": "0",
+    "ISSP": 0,
+    "geo_cc": "US"
+   }
+  },
+  {
+   "label": "player_live_api type=aid",
+   "url": "https://live.sooplive.co.kr/afreeca/player_live_api.php",
+   "status": 200,
+   "content_type": "text/html; charset=utf-8",
+   "len": 37,
+   "sha256": "9c988c4f1f439882486b243ddf98a460abcac73e651fba462f9f8d3fa608b512",
+   "RESULT": 0,
+   "aid_present": false
+  }
+ ],
+ "exit_ip": {
+  "ip": "160.79.106.139",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "loc": "39.9612,-82.9988",
+  "org": "AS396982 Google LLC",
+  "postal": "43215",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+ }
+}
